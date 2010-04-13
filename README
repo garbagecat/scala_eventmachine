@@ -1,16 +1,32 @@
-Scala/EventMachine is a framework for creating networked and distributed applications, inspired by Ruby/EventMachine. It is copyrighted free software released under an MIT-style license.
+Scala/EventMachine is a framework for creating networked and distributed
+applications, inspired by Ruby/EventMachine. It is copyrighted free software
+released under an MIT-style license.
 
 Copyright (C) 2010, by Francis Cianfrocca. All Rights Reserved
 
-Scala/EM is written in pure Scala for deployment on the JVM. It has the following design objectives:
+Scala/EM is written in pure Scala for deployment on the JVM.
+It has the following design objectives:
 
-1) Extremely fast and scalable. (Each process should support up to 100,000 simultaneous network connections, and up to 10 gigabits/second of throughput.)
-2) Suitable for production environments, in enterprises and social networks. (Stable, dependable APIs, large suite of pre-built protocol handlers, integration with other enterprise frameworks)
-3) Easy to use. (Programmers provide only application logic and the framework does the rest.)
+1) Extremely fast and scalable. (Each process should support up to 100,000
+   simultaneous network connections, and up to 10 gigabits/sec of throughput.)
+2) Suitable for production environments, in enterprises and social networks.
+   (Stable, dependable APIs, large suite of pre-built protocol handlers,
+   integration with other enterprise frameworks)
+3) Easy to use. (Programmers provide only application logic and the framework
+   does the rest.)
 4) A sequential programming style.
 
-The first three objectives are shared with Ruby/EM. The fourth is a new objective, designed to eliminate the difficulties associated with event-driven programming. Scala/EM enables programmers to develop applications using a straightforward, familiar style that uses blocking calls to obtain data from the network.
+The first three objectives are shared with Ruby/EM. The fourth is a new
+objective, designed to eliminate the difficulties associated with event-driven
+programming. Scala/EM enables programmers to develop applications using a
+straightforward, familiar style that uses blocking calls to obtain data from
+the network.
 
-Scala/EM relies on features of the Scala 2.8 programming language, including event-driven actors and continuations, to achieve real ease of use combined with extreme performance and scalability. But the framework hides these complicated features from the programmer.
+Scala/EM relies on features of the Scala 2.8 programming language, including
+event-driven actors and continuations, to achieve real ease of use combined
+with extreme performance and scalability. But the framework hides these
+complex features from the programmer.
 
-The Scala/EM project will release experimental code branches and documentation, on a schedule that tracks the production-release schedule of Scala version 2.8, which is currently in beta. Keep checking here for updates.
+The Scala/EM project will release experimental code branches and documentation,
+on a schedule that tracks the production-release schedule of Scala version 2.8,
+which is currently in beta. Keep checking here for updates.
